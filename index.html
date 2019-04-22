@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Grid</title>
+  <style>
+    .wrapper {
+      display: grid;
+      grid-template-columns: 70% 30%;
+      /* grid-column-gap: 1em;
+      grid-row-gap: 1em; */
+
+      grid-gap: 1em;
+    }
+
+    .wrapper>div {
+      background: #eee;
+      padding: 1em;
+    }
+
+    .wrapper>div:nth-child(odd) {
+      background: #ddd;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ipsa dolorem facere eius laudantium tempore
+      asperiores corrupti temporibus nisi suscipit minus laborum ducimus necessitatibus cupiditate architecto fuga,
+      inventore fugit dolor, placeat qui possimus, ratione minima repellendus iusto! Aut ab id mollitia optio culpa
+      earum debitis. Reiciendis voluptatum molestiae fugit placeat eaque necessitatibus suscipit commodi saepe
+      voluptate! Quo labore ab doloremque, vero nisi culpa a vel saepe velit veritatis reprehenderit, voluptatum fuga
+      delectus molestiae sed ut similique sapiente? Provident, voluptas fugit!
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae beatae illo qui consequuntur, velit voluptatum
+      provident fugit nostrum doloribus animi consequatur id aperiam odit repudiandae quae. Et veniam animi mollitia.
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ipsa dolorem facere eius laudantium tempore
+      asperiores corrupti temporibus nisi suscipit minus laborum ducimus necessitatibus cupiditate architecto fuga,
+      inventore fugit dolor, placeat qui possimus, ratione minima repellendus iusto! Aut ab id mollitia optio culpa
+      earum debitis. Reiciendis voluptatum molestiae fugit placeat eaque necessitatibus suscipit commodi saepe
+      voluptate! Quo labore ab doloremque, vero nisi culpa a vel saepe velit veritatis reprehenderit, voluptatum fuga
+      delectus molestiae sed ut similique sapiente? Provident, voluptas fugit!
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae beatae illo qui consequuntur, velit voluptatum
+      provident fugit nostrum doloribus animi consequatur id aperiam odit repudiandae quae. Et veniam animi mollitia.
+    </div>
+  </div>
+
+</body>
+
+</html>
